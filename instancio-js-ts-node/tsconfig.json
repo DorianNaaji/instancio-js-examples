@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "plugins": [
+      {
+        "transform": "typescript-rtti/dist/transformer"
+      }
+    ],
+    "skipLibCheck": true,
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+  },
+}

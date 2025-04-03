@@ -1,4 +1,4 @@
-Showcasing how to import `instancio-js` in your projects
+Showcasing how to import `instancio-js` in your projects (https://github.com/DorianNaaji/instancio-js)
 
 Examples include :
 

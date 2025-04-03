@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "plugins": [
+      {
+        "transform": "typescript-rtti/dist/transformer"
+      }
+    ],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true
+  }
+}

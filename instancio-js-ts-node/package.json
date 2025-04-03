@@ -1,0 +1,16 @@
+{
+  "name": "instancio-js-ts-node",
+  "description": "Showcasing how to use instancio-js with ts-node",
+  "version": "0.0.0",
+  "scripts": {
+    "instancio-ts-node": "ts-node -C ttypescript index.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5",
+    "ttypescript": "^1.5.15"
+  },
+  "dependencies": {
+    "instancio-js": "^1.1.0"
+  }
+}
