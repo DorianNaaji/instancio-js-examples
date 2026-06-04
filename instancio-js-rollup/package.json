@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^12.3.0",
-    "instancio-js": "^2.0.1",
+    "instancio-js": "^2.1.0",
     "rollup": "^4.0.0",
     "ts-patch": "^4.0.1",
     "typescript": "^6.0.3"
