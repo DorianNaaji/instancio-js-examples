@@ -3,6 +3,7 @@
     "plugins": [{ "transform": "instancio-js/dist/transformer" }],
     "module": "CommonJS",
     "target": "ES6",
-    "lib": ["ES2016", "DOM"]
+    "lib": ["ES2016", "DOM"],
+    "outDir": "dist/tsc"
   }
 }

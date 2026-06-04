@@ -1,0 +1,17 @@
+{
+  "name": "instancio-js-rollup",
+  "description": "Showcasing how to use instancio-js with rollup",
+  "version": "0.0.0",
+  "scripts": {
+    "prepare": "ts-patch install",
+    "build": "rollup -c",
+    "start": "npm run build && node dist/bundle.js"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^12.3.0",
+    "instancio-js": "^2.0.1",
+    "rollup": "^4.0.0",
+    "ts-patch": "^4.0.1",
+    "typescript": "^6.0.3"
+  }
+}

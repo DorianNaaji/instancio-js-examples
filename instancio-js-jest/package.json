@@ -1,0 +1,21 @@
+{
+  "name": "instancio-js-jest",
+  "description": "Showcasing how to use instancio-js with jest",
+  "version": "0.0.0",
+  "scripts": {
+    "prepare": "ts-patch install",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "instancio-js": "^2.0.1",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "ts-patch": "^4.0.1",
+    "typescript": "^6.0.3"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  }
+}
