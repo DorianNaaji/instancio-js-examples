@@ -1,0 +1,47 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  example:
+    name: ${{ matrix.dir }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - dir: instancio-js-vitest
+            cmd: npm test -- --run
+          - dir: instancio-js-jest
+            cmd: npm test
+          - dir: instancio-js-mocha
+            cmd: npm test
+          - dir: instancio-js-tape
+            cmd: npm test
+          - dir: instancio-js-ava
+            cmd: npm test
+          - dir: instancio-js-ts-node
+            cmd: npm start
+          - dir: instancio-js-rollup
+            cmd: npm start
+          - dir: instancio-babel
+            cmd: npm start
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: ${{ matrix.dir }}/package-lock.json
+
+      - run: npm ci
+        working-directory: ${{ matrix.dir }}
+
+      - run: ${{ matrix.cmd }}
+        working-directory: ${{ matrix.dir }}
