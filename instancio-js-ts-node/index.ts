@@ -1,10 +1,3 @@
-import { Instancio } from 'instancio-js';
+import { runConsole } from '../shared/showcase';
 
-export interface User {
-  name: string,
-  age: number,
-}
-
-
-const user: User = Instancio.of<User>().generate();
-console.log(user);
+runConsole();

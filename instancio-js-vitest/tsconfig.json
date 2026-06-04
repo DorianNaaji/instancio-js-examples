@@ -1,12 +1,7 @@
 {
   "compilerOptions": {
-    "plugins": [
-      {
-        "transform": "typescript-rtti/dist/transformer"
-      }
-    ],
+    "plugins": [{ "transform": "instancio-js/dist/transformer" }],
     "module": "ESNext",
-    "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true
+    "moduleResolution": "bundler"
   }
 }
