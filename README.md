@@ -5,6 +5,7 @@ Examples include :
 ### how to include the project for tests libraries
 - vitest
 - jest (wip)
+- nx + jest (see `instancio-js-nx`)
 - mocha (wip)
 - tape (wip)
 
