@@ -1,0 +1,35 @@
+{
+  "name": "@org/source-angular",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "devDependencies": {
+    "@angular/common": "22.0.4",
+    "@angular/compiler": "22.0.4",
+    "@angular/compiler-cli": "22.0.4",
+    "@angular/core": "22.0.4",
+    "@angular/platform-browser": "22.0.4",
+    "@nx/jest": "23.0.1",
+    "@nx/js": "^23.0.1",
+    "@types/jest": "~30.0.0",
+    "@types/node": "^22.0.0",
+    "jest": "~30.3.0",
+    "jest-environment-jsdom": "~30.3.0",
+    "jest-preset-angular": "17.0.0",
+    "nx": "23.0.1",
+    "prettier": "^3.8.1",
+    "rxjs": "~7.8.0",
+    "ts-jest": "^29.4.11",
+    "ts-node": "10.9.1",
+    "tslib": "^2.3.0",
+    "typescript": "6.0.3",
+    "zone.js": "~0.16.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "instancio-js": "^2.2.0"
+  }
+}
