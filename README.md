@@ -9,6 +9,11 @@ Examples include :
 - mocha (wip)
 - tape (wip)
 
+### how to include the project for frameworks
+- nx + Angular 22, jest (see `instancio-js-nx-angular`)
+- Angular + Vitest, `@analogjs/vite-plugin-angular` (see `instancio-js-angular-vitest`)
+- nx + Angular 22 + Vitest (see `instancio-js-nx-angular-vitest`)
+
 ### how to include the project for use inside 'production code'
 - ts-node
 - babel (wip)

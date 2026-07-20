@@ -1,0 +1,28 @@
+{
+  "name": "instancio-js-angular-vitest",
+  "description": "Minimal Angular + Vitest + @analogjs/vite-plugin-angular example for instancio-js, using the official Vite plugin so the zero-boilerplate Instancio.of<T>() API keeps working.",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "instancio-js": "file:../../instancio-js/instancio-js-2.3.0.tgz"
+  },
+  "devDependencies": {
+    "@analogjs/vite-plugin-angular": "^2.3.1",
+    "@angular/build": "^22.0.1",
+    "@angular/common": "^22.0.1",
+    "@angular/compiler": "^22.0.1",
+    "@angular/compiler-cli": "^22.0.1",
+    "@angular/core": "^22.0.1",
+    "@angular/platform-browser": "^22.0.1",
+    "happy-dom": "^15.11.0",
+    "rxjs": "~7.8.0",
+    "typescript": "~6.0.3",
+    "vite": "^8.0.1",
+    "vitest": "^4.1.9",
+    "zone.js": "~0.16.0"
+  }
+}

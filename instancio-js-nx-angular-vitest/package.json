@@ -1,0 +1,34 @@
+{
+  "name": "@org/source-angular-vitest",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "devDependencies": {
+    "@analogjs/vite-plugin-angular": "^2.3.1",
+    "@angular/build": "^22.0.1",
+    "@angular/common": "22.0.4",
+    "@angular/compiler": "22.0.4",
+    "@angular/compiler-cli": "22.0.4",
+    "@angular/core": "22.0.4",
+    "@angular/platform-browser": "22.0.4",
+    "@nx/js": "^23.0.1",
+    "@nx/vite": "23.0.1",
+    "@nx/vitest": "23.0.1",
+    "@types/node": "^22.0.0",
+    "happy-dom": "^15.11.0",
+    "nx": "23.0.1",
+    "prettier": "^3.8.1",
+    "rxjs": "~7.8.0",
+    "ts-node": "10.9.1",
+    "tslib": "^2.3.0",
+    "typescript": "6.0.3",
+    "vite": "^8.0.1",
+    "vitest": "^4.1.9",
+    "zone.js": "~0.16.0"
+  },
+  "workspaces": ["packages/*"],
+  "dependencies": {
+    "instancio-js": "file:../../instancio-js/instancio-js-2.3.0.tgz"
+  }
+}
